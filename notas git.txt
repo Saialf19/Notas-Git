@@ -1,0 +1,38 @@
+git add .; esto es primero para agregar al indice del repositorio
+git commit -m "Mi primer comit"
+git commit . -m"Encabezado de los cambios"
+git log; se muestran los cambios
+git init ; se inicia el repositorio
+touch "index.html"; agregan archivos a una carpeta sin archivos
+git status; se ve los archivos
+git add
+git restore index.htm; retrocede los pasos
+git checkout "numero"; se regresa al archivo modificado
+history;  muestra todos los codigos empleados
+git remote add "Nombre del nuevo origen" "url o repositorio"
+git fetch "Nombre del nuevo origen"
+git merge "Nombre del nuevo origen"/main main para traer de la url o repo
+----------------------------
+Haciendo un repositorio
+git init; se inicia el repositorio
+touch "index.html"; se crea el tipo de archivo
+git add.; se añade el indice
+git commit -m "Mi primer commit"; se añade el primer cambio
+git log 
+git add .
+git commit -m "Nuevo Paso"
+---------------------------------
+Enviando a mi repositorio de github
+git clone "url" .
+git add .
+git commit -m "Mi primer cambio"
+git remote -v
+git push origen main
+git add . 
+git commit - "NUEVO CAMBIO"
+-----------------------------
+Usando Fork
+git clone "url"
+git add .
+git commit -m "Said Alferez"
+git push 
